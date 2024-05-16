@@ -1,0 +1,509 @@
+digraph ID3_Tree {
+"0" [shape=box, style=filled, label="call
+", weight=1]
+"1" [shape=box, style=filled, label="txt
+", weight=2]
+0 -> 1 [ label = "<=0.50"];
+"2" [shape=box, style=filled, label="text
+", weight=3]
+1 -> 2 [ label = "<=0.50"];
+"3" [shape=box, style=filled, label="uk
+", weight=4]
+2 -> 3 [ label = "<=0.50"];
+"4" [shape=box, style=filled, label="send
+", weight=5]
+3 -> 4 [ label = "<=0.50"];
+"5" [shape=box, style=filled, label="your
+", weight=6]
+4 -> 5 [ label = "<=0.50"];
+"6" [shape=box, style=filled, label="free
+", weight=7]
+5 -> 6 [ label = "<=0.50"];
+"7" [shape=box, style=filled, label="claim
+", weight=8]
+6 -> 7 [ label = "<=0.50"];
+"8" [shape=box, style=filled, label="tones
+", weight=9]
+7 -> 8 [ label = "<=0.50"];
+"9" [shape=box, style=filled, label="sms
+", weight=10]
+8 -> 9 [ label = "<=0.50"];
+"10" [shape=box, style=filled, label="chat
+", weight=11]
+9 -> 10 [ label = "<=0.50"];
+"11" [shape=box, style=filled, label="100
+", weight=12]
+10 -> 11 [ label = "<=0.50"];
+"12" [shape=box, style=filled, label="2day
+", weight=13]
+11 -> 12 [ label = "<=0.50"];
+"13" [shape=box, style=filled, label="88066
+", weight=14]
+12 -> 13 [ label = "<=0.50"];
+"14" [shape=box, style=filled, label="win
+", weight=15]
+13 -> 14 [ label = "<=0.50"];
+"15" [shape=box, style=filled, label="ltd
+", weight=16]
+14 -> 15 [ label = "<=0.50"];
+"16" [shape=box, style=filled, label="service
+", weight=17]
+15 -> 16 [ label = "<=0.50"];
+"17" [shape=box, style=filled, label="years
+", weight=18]
+16 -> 17 [ label = "<=0.50"];
+"18" [shape=box, style=filled, label="won
+", weight=19]
+17 -> 18 [ label = "<=0.50"];
+"19" [shape=box, style=filled, label="00
+", weight=20]
+18 -> 19 [ label = "<=0.50"];
+"20" [shape=box, style=filled, label="0796xxxxxx
+", weight=21]
+19 -> 20 [ label = "<=0.50"];
+"21" [shape=box, style=filled, label="146tf150p
+", weight=22]
+20 -> 21 [ label = "<=0.50"];
+"22" [shape=box, style=filled, label="4goten
+", weight=23]
+21 -> 22 [ label = "<=0.50"];
+"23" [shape=box, style=filled, label="afraid
+", weight=24]
+22 -> 23 [ label = "<=0.50"];
+"24" [shape=box, style=filled, label="barbie
+", weight=25]
+23 -> 24 [ label = "<=0.50"];
+"25" [shape=box, style=filled, label="cops
+", weight=26]
+24 -> 25 [ label = "<=0.50"];
+"26" [shape=box, style=filled, label="echo
+", weight=27]
+25 -> 26 [ label = "<=0.50"];
+"27" [shape=box, style=filled, label="ham
+(438)
+", weight=28]
+26 -> 27 [ label = "<=0.50"];
+"28" [shape=box, style=filled, label="spam
+(1)
+", weight=28]
+26 -> 28 [ label = ">0.50"];
+"29" [shape=box, style=filled, label="spam
+(1)
+", weight=27]
+25 -> 29 [ label = ">0.50"];
+"30" [shape=box, style=filled, label="spam
+(1)
+", weight=26]
+24 -> 30 [ label = ">0.50"];
+"31" [shape=box, style=filled, label="spam
+(1)
+", weight=25]
+23 -> 31 [ label = ">0.50"];
+"32" [shape=box, style=filled, label="spam
+(1)
+", weight=24]
+22 -> 32 [ label = ">0.50"];
+"33" [shape=box, style=filled, label="spam
+(1)
+", weight=23]
+21 -> 33 [ label = ">0.50"];
+"34" [shape=box, style=filled, label="spam
+(1)
+", weight=22]
+20 -> 34 [ label = ">0.50"];
+"35" [shape=box, style=filled, label="spam
+(1)
+", weight=21]
+19 -> 35 [ label = ">0.50"];
+"36" [shape=box, style=filled, label="and
+", weight=20]
+18 -> 36 [ label = ">0.50"];
+"37" [shape=box, style=filled, label="bad
+", weight=21]
+36 -> 37 [ label = "<=0.50"];
+"38" [shape=box, style=filled, label="spam
+(2)
+", weight=22]
+37 -> 38 [ label = "<=0.50"];
+"39" [shape=box, style=filled, label="ham
+(1)
+", weight=22]
+37 -> 39 [ label = ">0.50"];
+"40" [shape=box, style=filled, label="ham
+(3)
+", weight=21]
+36 -> 40 [ label = ">0.50"];
+"41" [shape=box, style=filled, label="spam
+(2)
+", weight=19]
+17 -> 41 [ label = ">0.50"];
+"42" [shape=box, style=filled, label="spam
+(2)
+", weight=18]
+16 -> 42 [ label = ">0.50"];
+"43" [shape=box, style=filled, label="spam
+(2)
+", weight=17]
+15 -> 43 [ label = ">0.50"];
+"44" [shape=box, style=filled, label="if
+", weight=16]
+14 -> 44 [ label = ">0.50"];
+"45" [shape=box, style=filled, label="spam
+(3)
+", weight=17]
+44 -> 45 [ label = "<=0.50"];
+"46" [shape=box, style=filled, label="ham
+(2)
+", weight=17]
+44 -> 46 [ label = ">0.50"];
+"47" [shape=box, style=filled, label="spam
+(2)
+", weight=15]
+13 -> 47 [ label = ">0.50"];
+"48" [shape=box, style=filled, label="spam
+(2)
+", weight=14]
+12 -> 48 [ label = ">0.50"];
+"49" [shape=box, style=filled, label="spam
+(2)
+", weight=13]
+11 -> 49 [ label = ">0.50"];
+"50" [shape=box, style=filled, label="always
+", weight=12]
+10 -> 50 [ label = ">0.50"];
+"51" [shape=box, style=filled, label="spam
+(4)
+", weight=13]
+50 -> 51 [ label = "<=0.50"];
+"52" [shape=box, style=filled, label="ham
+(1)
+", weight=13]
+50 -> 52 [ label = ">0.50"];
+"53" [shape=box, style=filled, label="lovely
+", weight=11]
+9 -> 53 [ label = ">0.50"];
+"54" [shape=box, style=filled, label="spam
+(5)
+", weight=12]
+53 -> 54 [ label = "<=0.50"];
+"55" [shape=box, style=filled, label="ham
+(2)
+", weight=12]
+53 -> 55 [ label = ">0.50"];
+"56" [shape=box, style=filled, label="spam
+(4)
+", weight=10]
+8 -> 56 [ label = ">0.50"];
+"57" [shape=box, style=filled, label="spam
+(4)
+", weight=9]
+7 -> 57 [ label = ">0.50"];
+"58" [shape=box, style=filled, label="1030
+", weight=8]
+6 -> 58 [ label = ">0.50"];
+"59" [shape=box, style=filled, label="spam
+(9)
+", weight=9]
+58 -> 59 [ label = "<=0.50"];
+"60" [shape=box, style=filled, label="ham
+(1)
+", weight=9]
+58 -> 60 [ label = ">0.50"];
+"61" [shape=box, style=filled, label="com
+", weight=7]
+5 -> 61 [ label = ">0.50"];
+"62" [shape=box, style=filled, label="will
+", weight=8]
+61 -> 62 [ label = "<=0.50"];
+"63" [shape=box, style=filled, label="out
+", weight=9]
+62 -> 63 [ label = "<=0.50"];
+"64" [shape=box, style=filled, label="mobile
+", weight=10]
+63 -> 64 [ label = "<=0.50"];
+"65" [shape=box, style=filled, label="reply
+", weight=11]
+64 -> 65 [ label = "<=0.50"];
+"66" [shape=box, style=filled, label="078
+", weight=12]
+65 -> 66 [ label = "<=0.50"];
+"67" [shape=box, style=filled, label="are
+", weight=13]
+66 -> 67 [ label = "<=0.50"];
+"68" [shape=box, style=filled, label="being
+", weight=14]
+67 -> 68 [ label = "<=1.50"];
+"69" [shape=box, style=filled, label="filthy
+", weight=15]
+68 -> 69 [ label = "<=0.50"];
+"70" [shape=box, style=filled, label="ham
+(30)
+", weight=16]
+69 -> 70 [ label = "<=0.50"];
+"71" [shape=box, style=filled, label="spam
+(1)
+", weight=16]
+69 -> 71 [ label = ">0.50"];
+"72" [shape=box, style=filled, label="spam
+(1)
+", weight=15]
+68 -> 72 [ label = ">0.50"];
+"73" [shape=box, style=filled, label="spam
+(1)
+", weight=14]
+67 -> 73 [ label = ">1.50"];
+"74" [shape=box, style=filled, label="spam
+(1)
+", weight=13]
+66 -> 74 [ label = ">0.50"];
+"75" [shape=box, style=filled, label="in
+", weight=12]
+65 -> 75 [ label = ">0.50"];
+"76" [shape=box, style=filled, label="adp
+", weight=13]
+75 -> 76 [ label = "<=0.50"];
+"77" [shape=box, style=filled, label="ham
+(2)
+", weight=14]
+76 -> 77 [ label = "<=0.50"];
+"78" [shape=box, style=filled, label="spam
+(1)
+", weight=14]
+76 -> 78 [ label = ">0.50"];
+"79" [shape=box, style=filled, label="spam
+(2)
+", weight=13]
+75 -> 79 [ label = ">0.50"];
+"80" [shape=box, style=filled, label="spam
+(3)
+", weight=11]
+64 -> 80 [ label = ">0.50"];
+"81" [shape=box, style=filled, label="am
+", weight=10]
+63 -> 81 [ label = ">0.50"];
+"82" [shape=box, style=filled, label="spam
+(5)
+", weight=11]
+81 -> 82 [ label = "<=0.50"];
+"83" [shape=box, style=filled, label="ham
+(1)
+", weight=11]
+81 -> 83 [ label = ">0.50"];
+"84" [shape=box, style=filled, label="spam
+(5)
+", weight=9]
+62 -> 84 [ label = ">0.50"];
+"85" [shape=box, style=filled, label="spam
+(8)
+", weight=8]
+61 -> 85 [ label = ">0.50"];
+"86" [shape=box, style=filled, label="gt
+", weight=6]
+4 -> 86 [ label = ">0.50"];
+"87" [shape=box, style=filled, label="to
+", weight=7]
+86 -> 87 [ label = "<=0.50"];
+"88" [shape=box, style=filled, label="my
+", weight=8]
+87 -> 88 [ label = "<=1.50"];
+"89" [shape=box, style=filled, label="it
+", weight=9]
+88 -> 89 [ label = "<=0.50"];
+"90" [shape=box, style=filled, label="lor
+", weight=10]
+89 -> 90 [ label = "<=0.50"];
+"91" [shape=box, style=filled, label="pic
+", weight=11]
+90 -> 91 [ label = "<=0.50"];
+"92" [shape=box, style=filled, label="spam
+(11)
+", weight=12]
+91 -> 92 [ label = "<=0.50"];
+"93" [shape=box, style=filled, label="ham
+(1)
+", weight=12]
+91 -> 93 [ label = ">0.50"];
+"94" [shape=box, style=filled, label="ham
+(1)
+", weight=11]
+90 -> 94 [ label = ">0.50"];
+"95" [shape=box, style=filled, label="ham
+(2)
+", weight=10]
+89 -> 95 [ label = ">0.50"];
+"96" [shape=box, style=filled, label="ham
+(3)
+", weight=9]
+88 -> 96 [ label = ">0.50"];
+"97" [shape=box, style=filled, label="spam
+(18)
+", weight=8]
+87 -> 97 [ label = ">1.50"];
+"98" [shape=box, style=filled, label="ham
+(4)
+", weight=7]
+86 -> 98 [ label = ">0.50"];
+"99" [shape=box, style=filled, label="spam
+(25)
+", weight=5]
+3 -> 99 [ label = ">0.50"];
+"100" [shape=box, style=filled, label="to
+", weight=4]
+2 -> 100 [ label = ">0.50"];
+"101" [shape=box, style=filled, label="for
+", weight=5]
+100 -> 101 [ label = "<=0.50"];
+"102" [shape=box, style=filled, label="your
+", weight=6]
+101 -> 102 [ label = "<=0.50"];
+"103" [shape=box, style=filled, label="ham
+(5)
+", weight=7]
+102 -> 103 [ label = "<=0.50"];
+"104" [shape=box, style=filled, label="spam
+(2)
+", weight=7]
+102 -> 104 [ label = ">0.50"];
+"105" [shape=box, style=filled, label="spam
+(3)
+", weight=6]
+101 -> 105 [ label = ">0.50"];
+"106" [shape=box, style=filled, label="tell
+", weight=5]
+100 -> 106 [ label = ">0.50"];
+"107" [shape=box, style=filled, label="spam
+(46)
+", weight=6]
+106 -> 107 [ label = "<=0.50"];
+"108" [shape=box, style=filled, label="ham
+(2)
+", weight=6]
+106 -> 108 [ label = ">0.50"];
+"109" [shape=box, style=filled, label="think
+", weight=3]
+1 -> 109 [ label = ">0.50"];
+"110" [shape=box, style=filled, label="did
+", weight=4]
+109 -> 110 [ label = "<=0.50"];
+"111" [shape=box, style=filled, label="spam
+(102)
+", weight=5]
+110 -> 111 [ label = "<=0.50"];
+"112" [shape=box, style=filled, label="ham
+(1)
+", weight=5]
+110 -> 112 [ label = ">0.50"];
+"113" [shape=box, style=filled, label="ham
+(2)
+", weight=4]
+109 -> 113 [ label = ">0.50"];
+"114" [shape=box, style=filled, label="me
+", weight=2]
+0 -> 114 [ label = ">0.50"];
+"115" [shape=box, style=filled, label="sorry
+", weight=3]
+114 -> 115 [ label = "<=0.50"];
+"116" [shape=box, style=filled, label="am
+", weight=4]
+115 -> 116 [ label = "<=0.50"];
+"117" [shape=box, style=filled, label="aldrine
+", weight=5]
+116 -> 117 [ label = "<=0.50"];
+"118" [shape=box, style=filled, label="almost
+", weight=6]
+117 -> 118 [ label = "<=0.50"];
+"119" [shape=box, style=filled, label="didn
+", weight=7]
+118 -> 119 [ label = "<=0.50"];
+"120" [shape=box, style=filled, label="going
+", weight=8]
+119 -> 120 [ label = "<=0.50"];
+"121" [shape=box, style=filled, label="work
+", weight=9]
+120 -> 121 [ label = "<=0.50"];
+"122" [shape=box, style=filled, label="spam
+(224)
+", weight=10]
+121 -> 122 [ label = "<=0.50"];
+"123" [shape=box, style=filled, label="ham
+(1)
+", weight=10]
+121 -> 123 [ label = ">0.50"];
+"124" [shape=box, style=filled, label="ham
+(1)
+", weight=9]
+120 -> 124 [ label = ">0.50"];
+"125" [shape=box, style=filled, label="ham
+(1)
+", weight=8]
+119 -> 125 [ label = ">0.50"];
+"126" [shape=box, style=filled, label="ham
+(1)
+", weight=7]
+118 -> 126 [ label = ">0.50"];
+"127" [shape=box, style=filled, label="ham
+(1)
+", weight=6]
+117 -> 127 [ label = ">0.50"];
+"128" [shape=box, style=filled, label="1500
+", weight=5]
+116 -> 128 [ label = ">0.50"];
+"129" [shape=box, style=filled, label="ham
+(2)
+", weight=6]
+128 -> 129 [ label = "<=0.50"];
+"130" [shape=box, style=filled, label="spam
+(2)
+", weight=6]
+128 -> 130 [ label = ">0.50"];
+"131" [shape=box, style=filled, label="ham
+(6)
+", weight=4]
+115 -> 131 [ label = ">0.50"];
+"132" [shape=box, style=filled, label="heard
+", weight=3]
+114 -> 132 [ label = ">0.50"];
+"133" [shape=box, style=filled, label="08712460324
+", weight=4]
+132 -> 133 [ label = "<=0.50"];
+"134" [shape=box, style=filled, label="ham
+(15)
+", weight=5]
+133 -> 134 [ label = "<=0.50"];
+"135" [shape=box, style=filled, label="spam
+(1)
+", weight=5]
+133 -> 135 [ label = ">0.50"];
+"136" [shape=box, style=filled, label="spam
+(2)
+", weight=4]
+132 -> 136 [ label = ">0.50"];
+{rank=same; 0;};
+{rank=same; 9;56;64;81;90;95;122;123;};
+{rank=same; 10;53;65;80;82;83;91;94;};
+{rank=same; 11;50;54;55;66;75;92;93;};
+{rank=same; 12;49;51;52;67;74;76;79;};
+{rank=same; 13;48;68;73;77;78;};
+{rank=same; 14;47;69;72;};
+{rank=same; 15;44;70;71;};
+{rank=same; 16;43;45;46;};
+{rank=same; 17;42;};
+{rank=same; 18;41;};
+{rank=same; 1;114;};
+{rank=same; 19;36;};
+{rank=same; 20;35;37;40;};
+{rank=same; 21;34;38;39;};
+{rank=same; 22;33;};
+{rank=same; 23;32;};
+{rank=same; 24;31;};
+{rank=same; 25;30;};
+{rank=same; 26;29;};
+{rank=same; 27;28;};
+{rank=same; 2;109;115;132;};
+{rank=same; 3;100;110;113;116;131;133;136;};
+{rank=same; 4;99;101;106;111;112;117;128;134;135;};
+{rank=same; 5;86;102;105;107;108;118;127;129;130;};
+{rank=same; 6;61;87;98;103;104;119;126;};
+{rank=same; 7;58;62;85;88;97;120;125;};
+{rank=same; 8;57;59;60;63;84;89;96;121;124;};
+}
